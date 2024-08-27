@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+  Подписки на авторов
+{% endblock %}
+{% block content %}
+  <div class="container py-5">
+    <h4>Вы не можете подписаться на самого себя!</h4>
+    <a href="{% url 'posts:index' %}">
+      На главную
+    </a>
+    <br>
+  </div>
+{% endblock %}
