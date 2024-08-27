@@ -1,2 +1,2 @@
 # yandex-praktikum
-Python training
+ Python training
